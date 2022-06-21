@@ -20,7 +20,7 @@
         <oboOther:idspace>EDAM_data http://edamontology.org/data_ &quot;EDAM types of data&quot;</oboOther:idspace>
         <oboOther:idspace>EDAM_format http://edamontology.org/format_ &quot;EDAM data formats&quot;</oboOther:idspace>
         <oboOther:idspace>EDAM_operation http://edamontology.org/operation_ &quot;EDAM operations&quot;</oboOther:idspace>
-        <oboOther:idspace>EDAM_topic http://edamontology.org/topic_ &quot;EDAM topics&quot;</oboOther:idspace>
+        <oboOther:idspace>EDAM_toic http://edamontology.org/topic_ &quot;EDAM topics&quot;</oboOther:idspace>
         <oboOther:remark>EDAM editors: Jon Ison, Matúš Kalaš, Hervé Ménager, and Veit Schwämmle. Contributors: see http://edamontologydocs.readthedocs.io/en/latest/contributors.html. License: see http://edamontologydocs.readthedocs.io/en/latest/license.html.</oboOther:remark>
         <oboOther:remark>EDAM is a community project and its development can be followed and contributed to at https://github.com/edamontology/edamontology.</oboOther:remark>
         <dc:contributor>Veit Schwämmle</dc:contributor>
@@ -52347,7 +52347,7 @@
         <oboInOwl:hasRelatedSynonym>sumo:FieldOfStudy</oboInOwl:hasRelatedSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#topics"/>
-        <rdfs:label>Topic</rdfs:label>
+        <rdfs:label>Python Basics</rdfs:label>
         <rdfs:seeAlso>http://bioontology.org/ontologies/ResearchArea.owl#Area_of_Research</rdfs:seeAlso>
         <rdfs:seeAlso>http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Method</rdfs:seeAlso>
         <rdfs:seeAlso>http://purl.org/biotop/biotop.owl#Quality</rdfs:seeAlso>
