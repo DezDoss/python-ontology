@@ -1240,7 +1240,7 @@
  <!-- http://edamontology.org/topic_0077 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0077">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3307"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0003"/>
         <created_in>beta12orEarlier</created_in>
         <isdebtag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isdebtag>
         <oboInOwl:hasDefinition>The processing and analysis of nucleic acid sequence, structural and other data.</oboInOwl:hasDefinition>
