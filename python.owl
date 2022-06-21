@@ -1221,6 +1221,20 @@
         <rdfs:label>Obsolete concept (EDAM)</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
+
+    <!-- http://edamontology.org/topic_0003 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_0003">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
+        <created_in>beta12orEarlier</created_in>
+        <obsolete_since>beta12orEarlier</obsolete_since>
+        <oldParent rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <oboInOwl:consider rdf:resource="http://edamontology.org/topic_0003"/>
+        <oboInOwl:hasDefinition>An entry (retrievable via URL) from a biological database.</oboInOwl:hasDefinition>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#obsolete"/>
+        <rdfs:label>Database entry</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
