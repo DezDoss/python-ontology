@@ -1021,11 +1021,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <created_in>beta12orEarlier</created_in>
-        <oboInOwl:hasDefinition>A biological model represented in mathematical terms.</oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>Biological model</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>Python-да сандар мен логикалық скалярлардан бастап тізімдер, сөздіктер және файлдар сияқты күрделі құрылымдарға дейін бірнеше кірістірілген деректер түрлері бар.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Кірістірілген деректер түрлері</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
-        <rdfs:label>Mathematical model</rdfs:label>
+        <rdfs:label>Деректер түрі</rdfs:label>
     </owl:Class>
 
     <!-- http://edamontology.org/data_0008 -->
@@ -1039,11 +1039,11 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <created_in>beta12orEarlier</created_in>
-        <oboInOwl:hasDefinition>A biological model represented in mathematical terms.</oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>Biological model</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>Python-да кодтың орындалуын және бағдарлама ағынын басқаруға арналған құрылымдардың толық спектрі бар, соның ішінде жалпы тармақталу және цикл құрылымдары бар.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Басқару ағыны</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
-        <rdfs:label>Mathematical model</rdfs:label>
+        <rdfs:label>Басқару ағынының құрылымдары</rdfs:label>
     </owl:Class>
 
 
