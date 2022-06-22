@@ -1118,6 +1118,76 @@
         <rdfs:label>Сөздіктер</rdfs:label>
     </owl:Class>
 
+    <!-- http://edamontology.org/data_0013 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0013">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Python басқа бағдарламалау тілдерінің көпшілігінен ерекшеленеді, себебі ол блок құрылымын анықтау үшін бос орындар мен шегіністерді пайдаланады (яғни, цикл денесін нені құрайтынын анықтау үшін, шартты сөйлемнің else сөйлемі және т.б.).</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Brace and space</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Шегініс және блокты құрылымдау</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0014 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0014">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Көп жағдайда Python файлындағы # белгісінен кейінгі кез келген нәрсе түсініктеме болып табылады және тілмен ескерілмейді. Айқын ерекшелік - жолдағы #, ол жолдың таңбасы ғана:</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Commenting</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Комментарии</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0015 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0015">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Python тіліндегі ең жиі қолданылатын пәрмен – тағайындау, ол басқа тілдерде қолданғаныңызға қарағанда өте жеңіл көрінеді. x деп аталатын айнымалыны жасау және сол айнымалыға 5 мәнін тағайындау үшін Python коды: &quot;x=5&quot;</oboInOwl:hasDefinition>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Айнымалылар мен тағайындау</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0016 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0016">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Python сандардың төрт түрін ұсынады: бүтін сандар, қалқымалы сандар, күрделі сандар және логикалық сандар.</oboInOwl:hasDefinition>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Сандар</rdfs:label>
+    </owl:Class>
+
 
     <!-- http://www.w3.org/2002/07/owl#DeprecatedClass -->
 
