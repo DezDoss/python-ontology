@@ -1188,6 +1188,121 @@
         <rdfs:label>Сандар</rdfs:label>
     </owl:Class>
 
+    <!-- http://edamontology.org/data_0017 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0017">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Python сандардың төрт түрін ұсынады: бүтін сандар, қалқымалы сандар, күрделі сандар және логикалық сандар.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Сандар</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://edamontology.org/data_0016"/>
+        <oboInOwl:inSubset rdf:resource="http://edamontology.org/data_0016"/>
+        <rdfs:label>Сандар</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0018 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0018">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Тізімдер бірнеше элементтерді бір айнымалыға сақтау үшін қолданылады.
+                                Тізімдер - бұл Python-да мәліметтер жиынтығын сақтау үшін қолданылатын 4 кіріктірілген деректер түрінің бірі, қалған 3-і-әр түрлі қасиеттері мен қолданысы бар жиынтық, жиынтық және сөздік.
+                                []
+                                [1]
+                                [1, 2, 3, 4, 5, 6, 7, 8, 12]
+                                [1, "two", 3L, 4.0, ["a", "b"], (5,6)]		
+</oboInOwl:hasDefinition>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Тізімдер</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0019 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0019">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Түйіндер тізімдерге ұқсас, бірақ өзгермейді, яғни олар жасалғаннан кейін оларды өзгерту мүмкін емес. Операторлар (in, + және *) және кіріктірілген функциялар (len, max және min) тізімдермен бірдей жұмыс істейді, өйткені олардың ешқайсысы түпнұсқаны өзгертпейді. Индекстер мен кесектердің белгілері элементтерді немесе кесектерді алу үшін бірдей жұмыс істейді, бірақ оларды элементтерді қосу, жою немесе ауыстыру үшін пайдалануға болмайды. Сондай-ақ, тек екі түйін әдісі бар: count және index. Кілттердің негізгі мақсаты-оларды сөздіктердің кілті ретінде пайдалану. Сондай-ақ, олар сізге өзгерту мүмкіндігі қажет болмаған кезде тиімдірек болады.</oboInOwl:hasDefinition>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Tuples</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0020 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0020">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Көптеген танымал бағдарламалау тілдеріндегідей, Python-дағы жолдар Юникод таңбаларын білдіретін байт массивтері болып табылады.
+
+Алайда, Python - да символдық деректер түрі жоқ, бір таңба-бұл 1-ші жол.
+
+Квадрат жақшаларды жол элементтеріне кіру үшін пайдалануға болады.</oboInOwl:hasDefinition>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Жолдар</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0021 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0021">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Python-да енгізілген сөздіктің деректер түрі хэш кестелерін қолдана отырып, ассоциативті массивтің функционалдығын қамтамасыз етеді. Кірістірілген Len функциясы сөздіктегі кілт мәні жұптарының санын қайтарады. Del мәлімдемесін кілт мәні жұбын жою үшін пайдалануға болады. Тізімдер сияқты бірқатар сөздік әдістер қол жетімді (clear, copy, get, has_key, items, keys, update және values).</oboInOwl:hasDefinition>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Сөздіктер</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0022 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0022">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Python set-ы -бұл мүшелік пен жиынтықтағы бірегейлік сіз осы объект туралы білуіңіз керек негізгі нәрселер болған жағдайда қолданылатын объектілердің реттелмеген жиынтығы.</oboInOwl:hasDefinition>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Set</rdfs:label>
+    </owl:Class>
+
+    
+
 
     <!-- http://www.w3.org/2002/07/owl#DeprecatedClass -->
 
