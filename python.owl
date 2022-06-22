@@ -1028,6 +1028,42 @@
         <rdfs:comment>EDAM does not distinguish the multiplicity of data, such as one data item (datum) versus a collection of data (data set).</rdfs:comment>
     </owl:Axiom>
 
+    <!-- http://edamontology.org/data_0007 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0007">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>A biological model represented in mathematical terms.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Biological model</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Mathematical model</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0008 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0008">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>A biological model represented in mathematical terms.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Biological model</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Mathematical model</rdfs:label>
+    </owl:Class>
+
 
     <!-- http://www.w3.org/2002/07/owl#DeprecatedClass -->
 
