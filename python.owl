@@ -992,6 +992,7 @@
     <!-- http://edamontology.org/data_0005 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0005">
+        <owl:disjointWith rdf:resource="http://edamontology.org/data_0006"/>
         <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
         <created_in>beta12orEarlier</created_in>
         <notRecommendedForAnnotation rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</notRecommendedForAnnotation>
