@@ -1046,6 +1046,78 @@
         <rdfs:label>Басқару ағынының құрылымдары</rdfs:label>
     </owl:Class>
 
+    <!-- http://edamontology.org/data_0009 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0009">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Бұл тарауда Python тіліндегі абсолютті негіздерді сипаттайды: тапсырмалар мен өрнектер, санды немесе жолды қалай теру керек, кодта түсініктемелерді көрсету және т.б. Ол кез келген басқа негізгі тілден ерекшеленетін Python блогы өз кодын қалай құрылымдайтынын талқылаудан басталады.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Базсы</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Абсолютті негізі</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0010 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0010">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Бұл тарауда біз Python тізбегінің екі негізгі түрін талқылаймыз: тізімдер мен кортеждер. Алдымен тізімдер көптеген басқа тілдердегі массивтерді еске түсіруі мүмкін, бірақ алданып қалмаңыз - тізімдер қарапайым массивтерге қарағанда әлдеқайда икемді және күштірек. Бұл тарауда сонымен қатар Python топтамасының жаңа түрі қарастырылады: жиындар. Жиындар нысанның орнынан айырмашылығы жинақтағы мүшелігі маңызды болған кезде пайдалы.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Күрделі деректер типі</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Тізімдер, кортеждер және жиындар</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0011" -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0011">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Мәтінді өңдеу — пайдаланушы енгізуінен бастап, файл атауларына, мәтін бөліктерін өңдеуге дейін — бағдарламалаудағы қарапайым жұмыс. Python мәтінді өңдеуге және пішімдеуге арналған қуатты құралдармен бірге келеді. Бұл тарауда Python тіліндегі стандартты жол және жолға қатысты операциялар талқыланады.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>String</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Жолдар</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0012" -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0012">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Бұл тарауда сөздіктер, ассоциативті массивтерге арналған Python атауы талқыланады, ол хэш кестелерін пайдалана отырып жүзеге асырады. Сөздіктер тіпті қарапайым бағдарламаларда да пайдалы.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>String</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Сөздіктер</rdfs:label>
+    </owl:Class>
+
 
     <!-- http://www.w3.org/2002/07/owl#DeprecatedClass -->
 
