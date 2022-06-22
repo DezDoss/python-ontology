@@ -1215,7 +1215,6 @@
     <!-- http://edamontology.org/topic_0003 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0003">
-        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
         <created_in>beta12orEarlier</created_in>
         <notRecommendedForAnnotation rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</notRecommendedForAnnotation>
         <oboInOwl:hasDefinition>A category denoting a rather broad domain or field of interest, of study, application, work, data, or technology. Topics have no clearly defined borders between each other.</oboInOwl:hasDefinition>
