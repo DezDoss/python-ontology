@@ -1394,6 +1394,65 @@
         <rdfs:label>Күрделі сандардың кеңейтілген функциялары</rdfs:label>
     </owl:Class>
 
+    <!-- http://edamontology.org/data_0028 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0028">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Python-дағы тізім Java, C немесе кез-келген басқа тілдегі массивпен бірдей. Бұл объектілердің реттелген жиынтығы. Сіз үтірмен бөлінген элементтер тізімін жақшаға жабу арқылы тізім жасайсыз, мысалы: x = [1, 2, 3]</oboInOwl:hasDefinition>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Тізімдер массивтерге ұқсас</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0029 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0029">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Тізім элементтері индекстеледі және сіз оларға индекс нөміріне хабарласу арқылы қол жеткізе аласыз:
+бұл тізім = ["алма", "банан", "шие"]
+басып шығару (бұл тізім[1])</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Күрделі деректер типі</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Тізім индекстері</rdfs:label>
+    </owl:Class>
+
+    <!-- http://edamontology.org/data_0030 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0030">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://edamontology.org/has_topic"/>
+                <owl:someValuesFrom rdf:resource="http://edamontology.org/topic_3307"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <created_in>beta12orEarlier</created_in>
+        <oboInOwl:hasDefinition>Тізімді өзгерту үшін, сонымен қатар одан элементті алу үшін тізім индексінің белгілерін пайдалануға болады. Индексті тағайындау операторының сол жағына қойыңыз:
+>>> x = [1, 2, 3, 4]
+>>> x [1] = "екі"
+>>> x
+[1, 'екі', 3, 4]</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Күрделі деректер типі</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Тізімдерді өзгерту</rdfs:label>
+    </owl:Class>
+
     <!-- http://www.w3.org/2002/07/owl#DeprecatedClass -->
 
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
